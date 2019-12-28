@@ -1,0 +1,20 @@
+{
+  "name": "discordial-example",
+  "version": "1.0.0",
+  "description": "An example of how to use the Discordial framework.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json -w",
+    "start": "node dist/index.js"
+  },
+  "author": "Marcelo Perrella",
+  "license": "ISC",
+  "dependencies": {
+    "discordial": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.1",
+    "typescript": "^3.7.4"
+  }
+}
